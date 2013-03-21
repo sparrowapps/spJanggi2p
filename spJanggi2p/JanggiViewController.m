@@ -2001,40 +2001,6 @@ static dev_type gDevice;
 
 #ifdef FREE_APP
 #pragma mark iAD Delegate
-//-(void) adBannerInit
-//{
-//    adBanner = [[ADBannerView alloc] initWithFrame:CGRectZero];
-//    [adBanner setRequiredContentSizeIdentifiers:
-//     [NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait, nil]];
-//    
-//    [adBanner setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];
-//    [adBanner setFrame:CGRectMake(0, 480, 320, 50)];
-//    [adBanner setDelegate:self];
-//    [self.view addSubview:adBanner];
-//    [adBanner release];
-//}
-//
-//- (void)bannerViewDidLoadAd:(ADBannerView *)banner
-//{
-//    if (!_isBannerVisible)
-//    {
-//        [UIView beginAnimations:@"animateBannerAppear" context:nil];
-//        [adBanner setFrame:CGRectMake(0, 430, 320, 50)];
-//        [UIView commitAnimations];
-//        _isBannerVisible = YES;
-//    }
-//}
-//
-//- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
-//{
-//    if (_isBannerVisible)
-//    {
-//        [UIView beginAnimations:@"animateBannerOff" context:nil];
-//        //[adBanner setFrame:CGRectMake(0, 480, 320, 50)];
-//        adBanner.frame = CGRectOffset(adBanner.frame, 0, -50);
-//        [UIView commitAnimations];
-//    }
-//}
 
 #pragma mark - CaulyAD
 
